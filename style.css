@@ -1,0 +1,143 @@
+/*body
+{
+    width: 100vw;
+    height: 100vh;
+    
+  
+}
+.operating-container
+{
+    
+    width: 100%;
+    height: 40%;
+    background-color: rgba(39, 87, 177, 0.445);
+    margin: 10px auto;
+    text-align: center;
+    padding: 1.5em;
+    
+    
+}
+.operating-container >p
+{
+    font-weight: bolder;
+}
+.play
+{
+    background-color: white;
+    width: 50%;
+    height: 20%;
+    border-radius: 0.5em;
+
+}
+.match
+{
+    background-color: rgba(19, 212, 122, 0.938);
+    width: 8%;
+    height: 30%;
+    border-radius:60%;
+    border: none;
+    color: black;
+    
+}
+
+.shape-container
+{
+    
+    width: 100%;
+    box-sizing: border-box;
+    height: 55%;
+    background: rgba(193, 204, 223, 0.986);
+    margin: 10px auto;
+}*/
+
+/* main{
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(#aaa, #eee);
+}
+
+section, div {
+    margin: 10px auto;
+  }
+
+  #playSection {
+    background: lightslategray;
+  }
+   */
+
+   body
+   {
+       height: 100vh;
+       width: 100vw;
+      margin: .8em;
+      overflow-x: hidden;
+      background: linear-gradient(#aaa, #eee);
+
+   }
+   header
+   {
+       width: 96%;
+       height: 10%;
+       background-color: burlywood;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       /* border-radius: 1.5em; */
+       border: 0.2em dashed;
+       font-style: italic;
+       
+   }
+   main
+   {
+       width: 96%;
+       height: 80%;
+       text-align: center;
+       padding: 0.5em;
+   }
+   #playSection
+   {
+
+    background: lightslategray;
+    border-radius: 1.5em;
+   }
+   #btnSection
+   {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       
+   }
+   #play {
+    background: lightyellow;
+    width: 30%;
+    border-radius: 5px;
+    margin: 10px;;
+    padding: 1.1em;
+  }
+  #reset
+  {
+    background: lightyellow;
+    width: 30%;
+    border-radius: 5px;
+    margin: 10px;;
+    padding: 1.1em;
+  }
+  #match {
+    background: lightgreen;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: none;
+  }
+  
+   footer
+   {
+       width: 96%;
+       height: 10%;
+   }
+
+   #shapeSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
